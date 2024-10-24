@@ -40,6 +40,7 @@ t_orientation rotate(t_orientation ori, t_move move)
             rst=2;
             break;
         default:
+            rst=0;
             break;
     }
     return (ori+rst)%4;
